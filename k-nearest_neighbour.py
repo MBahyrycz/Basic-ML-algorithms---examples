@@ -4,7 +4,7 @@ from sklearn.neighbors import KNeighborsClassifier
 import pandas as pd
 
 
-data = pd.read_csv("car.data")
+data = pd.read_csv("data/car.data")
 # print(data.head())
 
 le = preprocessing.LabelEncoder()
